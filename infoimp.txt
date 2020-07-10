@@ -1,0 +1,10 @@
+exec('g++ hello.cpp  -o hello 2>&1', $out);
+	$timeout_in_sec = 4;
+	$your_cmd = 'saad.exe < in.txt';
+
+	$output1 = shell_exec("timeout ".$timeout_in_sec."s ".$your_cmd);
+	var_dump($output1);
+	$output = shell_exec("saad.exe < in.txt");
+    var_dump($output);
+file:///C:/Users/saad/Downloads/acetest/ace-builds-master/src-min-noconflict/ace.js
+file:///C:/Users/saad/Downloads/acetest/ace-builds/src-noconflict/ace.js
